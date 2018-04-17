@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 根据浏览器的屏幕大小自适应的展现合适的效果 -->
+    <meta name="applicable-device" content="pc,mobile" />
+    <!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <!--自动选择更好的浏览器-->
+    <meta name="renderer" content="webkit">
+    <title>复鑫优品</title>
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
+    <link href="css/youpin.css" rel="stylesheet" />
+</head>
+<body>
+<div class="banner"></div>
+
+<div class="section sec_one"></div>
+
+<div class="section sec_two">
+    <h2 class="title"></h2>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/sec_02_2.png" /></div>
+            <div class="swiper-slide"><img src="images/sec_02_1.png" /></div>
+            <div class="swiper-slide"><img src="images/sec_02_3.png" /></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<div class="section sec_three"></div>
+
+<div class="section sec_four"></div>
+
+<div class="section sec_five"></div>
+
+<div class="section sec_six"></div>
+
+<div class="section sec_seven"></div>
+
+<div class="section sec_eight"></div>
+
+<a class="attract_investment" href="tel:400-825-1988">400-825-1988</a>
+
+<script src="js/fontSize.js"></script>
+<script src="js/swiper-4.2.2.min.js"></script>
+<script>
+    window.onload = function(){
+        var swiper = new Swiper('.swiper-container', {
+            initialSlide: 1,
+            autoplay: {
+                delay: 3000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+            loop : true,
+            paginationClickable: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    }
+</script>
+</body>
+</html>
