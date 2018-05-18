@@ -37,4 +37,4 @@ https://sunguangqing.github.io/remHTML/index.html
 })(document, window);
 ```
 
-### >在js中添加如上JS代码, 然后结果就是以 1px = 0.01rem; 的比例去对页面布局实现自适应。
+>在js中添加如上JS代码, 然后结果就是以 1px = 0.01rem 的比例对页面布局实现自适应。
