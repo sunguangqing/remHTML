@@ -9,7 +9,7 @@ https://sunguangqing.github.io/remHTML/index.html
 
 ### rem 自适应页面, 监听浏览器, 针对不同分辨率计算font-size
 
-### `注意要在HTML页面<head></head>的内容顶部添加如下 mate 标签：`
+### `注意要在HTML页面<head></head>的内容顶部添加如下 meta 标签：`
 ```HTML
 <meta charset="UTF-8">
 <!-- 根据浏览器的屏幕大小自适应的展现合适的效果 -->
